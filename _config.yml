@@ -27,10 +27,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://admissions.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "admissions.github.io"
 
-redirect_to: https://oist.jp/admissions
+redirect_from:
+  - /
+  - /admissions
 
-whitelist:
-  - jekyll-redirect-from
+redirect_to: https://oist.jp/admissions
 
 # Build settings
 theme: minima
