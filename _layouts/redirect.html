@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+<html>
 <head>
-    <link rel="canonical" href="{{ .Params.redirect }}" />
+    <link rel="canonical" href="{{ page.redirect_to }}" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="refresh" content="0;url={{ .Params.redirect }}" />
+    <meta http-equiv="refresh" content="0;url={{  page.redirect_to }}" />
 </head>
 <body>
-<!--  This came from https://scripteverything.com/hugo-redirect-301-layout/ -->
-<p>Please click this [link]({{ .Params.redirect }}) if you are not redirected.</p>
-
+<p>Please click this [link]({{ page.redirect_to }}) if you are not redirected.</p>
 </body>
 </html>
