@@ -28,10 +28,9 @@ url: "https://admissions.github.io" # the base hostname & protocol for your site
 domain: "admissions.github.io"
 
 redirect_from:
-  - /
-  - /admissions
+  json: false
 
-redirect_to: https://oist.jp/admissions
+redirect_to: https://www.oist.jp/admissions
 
 # Build settings
 theme: minima
