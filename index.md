@@ -1,4 +1,5 @@
- ---
- redirect:   https://www.oist.jp/admissions
- layout:     redirect
- ---
+---
+layout:      redirect
+redirect_to: https://www.oist.jp/admissions
+permalink:   /
+---
